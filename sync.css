@@ -1,0 +1,80 @@
+.logo{
+    height: 40px;
+
+}
+.button{
+    color: #ff556e;
+    border-radius: 20px;
+    border-color: #ff556e;
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: transparent;
+    font-weight: bold;
+    border-style: solid;
+    border-width: 2px;
+
+
+}
+.nav-link a{
+    color: black;
+    text-decoration: none;
+    margin-right: 16px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+}
+.title{
+    font-size: 50px;
+}
+.texto{
+    color: grey;
+    font-size: 16px;
+}
+.button-2{
+    color: white;
+    border-radius: 20px;
+    background-color: #ff556e;
+    border-style: solid;
+    text-transform: uppercase;
+    border-color: #ff556e;
+    font-size: 12px;
+
+
+}
+.fa-brands{
+    font-size: 16px;
+    margin-right: 8px;
+}
+.sync-img{
+    width: 60%;
+    margin-top: 50px;
+}
+
+.sync-dropdown {
+    position: relative;
+}
+
+.sync-dropdown:hover .dropdown-menu-item {
+    display: block;
+}
+
+.dropdown-menu-item {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 120%;
+    left: 0;
+    width: 200%;
+    box-shadow: 3px 5px 15px 0 grey;
+    border-radius: 5px;
+}
+
+.dropdown-menu-item a {
+    display: block;
+    margin-right: 0;
+    padding: 4px;
+}
+
+.dropdown-menu-item a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+}
